@@ -1,63 +1,81 @@
 {
-	"animals": [
-		{
-			"id": 1,
-			"name": "Doodles",
-			"breed": "Poodle",
-			"customerId": 1,
-			"locationId": 2
-		},
-		{
-			"id": 2,
-			"name": "Puddles",
-			"breed": "Doodle",
-			"customerId": 1,
-			"locationId": 2
-		},
-		{
-			"id": 1,
-			"name": "Karl Barx",
-			"breed": "Bichon Frise",
-			"customerId": 1,
-			"locationId": 2
-		},
-		{
-			"id": 1,
-			"name": "Luna",
-			"breed": "Corgo",
-			"customerId": 1,
-			"locationId": 2
-		}
-	],
-	"customers": [
-		{
-			"id": 1,
-			"name": "Hannah Hall",
-			"address": "7002 Chestnut Ct"
-		},
-		{
-			"id": 2,
-			"name": "Charles Boyle",
-			"address": "Brooklyn 99 Ct"
-		}
-	],
-	"employees": [
-		{
-			"id": 1,
-			"name": "Rosa Diaz",
-			"locationId": 1
-		}
-	],
-	"locations": [
-		{
-			"id": 1,
-			"name": "Nashville North",
-			"address": "8422 Johnson Pike"
-		},
-		{
-			"id": 2,
-			"name": "Nashville South",
-			"address": "209 Emory Drive"
-		}
-	]
+  "animals": [
+    {
+      "id": 1,
+      "name": "Doodles",
+      "breed": "Poodle",
+      "customerId": 1,
+      "locationId": 2
+    },
+    {
+      "id": 2,
+      "name": "Puddles",
+      "breed": "Doodle",
+      "customerId": 1,
+      "locationId": 2
+    },
+    {
+      "id": 1,
+      "name": "Karl Barx",
+      "breed": "Bichon Frise",
+      "customerId": 1,
+      "locationId": 2
+    },
+    {
+      "id": 1,
+      "name": "Luna",
+      "breed": "Corgo",
+      "customerId": 1,
+      "locationId": 2
+    },
+    {
+      "name": "Cheddar",
+      "locationId": 1,
+      "customerId": 2,
+      "id": 3
+    },
+    {
+      "name": "Cheddar",
+      "breed": "Corgo",
+      "locationId": 1,
+      "customerId": 2,
+      "id": 4
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Hannah Hall",
+      "address": "7002 Chestnut Ct"
+    },
+    {
+      "id": 2,
+      "name": "Charles Boyle",
+      "address": "Brooklyn 99 Ct"
+    },
+    {
+      "name": "Raymond Holt",
+      "address": "1500 Big Wig Dr",
+      "id": 3
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Rosa Diaz",
+      "locationId": 1
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Nashville North",
+      "address": "8422 Johnson Pike"
+    },
+    {
+      "id": 2,
+      "name": "Nashville South",
+      "address": "209 Emory Drive"
+    }
+  ]
 }
