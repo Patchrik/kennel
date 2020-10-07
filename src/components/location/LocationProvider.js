@@ -18,7 +18,7 @@ export const LocationProvider = (props) => {
 			.then(setLocations);
 	};
 
-	const addLocations = (locationsObj) => {
+	const addLocation = (locationsObj) => {
 		return fetch("http://localhost:8088/locations", {
 			method: "POST",
 			headers: {
@@ -39,7 +39,7 @@ export const LocationProvider = (props) => {
 			value={{
 				locations,
 				getLocations,
-				addLocations,
+				addLocation,
 			}}
 		>
 			{props.children}

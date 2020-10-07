@@ -40,23 +40,39 @@
       "locationId": 1,
       "customerId": 2,
       "id": 4
+    },
+    {
+      "name": "Some Common Bitch",
+      "breed": "Corgi",
+      "locationId": 3,
+      "customerId": 3,
+      "id": 5
     }
   ],
   "customers": [
     {
       "id": 1,
       "name": "Hannah Hall",
-      "address": "7002 Chestnut Ct"
+      "address": "7002 Chestnut Ct",
+      "email": "Hannah@me.com"
     },
     {
       "id": 2,
       "name": "Charles Boyle",
-      "address": "Brooklyn 99 Ct"
+      "address": "Brooklyn 99 Ct",
+      "email": "I<3Jake@jake.com"
     },
     {
       "name": "Raymond Holt",
       "address": "1500 Big Wig Dr",
-      "id": 3
+      "id": 3,
+      "email": "Jazz99@mail.com"
+    },
+    {
+      "email": "Diehard@yippy.com",
+      "name": "Jake Pelralta",
+      "address": "100 Nakatomi Plaza, RM 1",
+      "id": 5
     }
   ],
   "employees": [
@@ -64,6 +80,11 @@
       "id": 1,
       "name": "Rosa Diaz",
       "locationId": 1
+    },
+    {
+      "name": "Terry Jeffers",
+      "locationId": 2,
+      "id": 2
     }
   ],
   "locations": [
@@ -76,6 +97,11 @@
       "id": 2,
       "name": "Nashville South",
       "address": "209 Emory Drive"
+    },
+    {
+      "name": "Brooklyn 99 Kennel",
+      "address": "99 Problematic Setting Ln",
+      "id": 3
     }
   ]
 }
