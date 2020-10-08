@@ -15,14 +15,14 @@
       "locationId": 2
     },
     {
-      "id": 1,
+      "id": 8,
       "name": "Karl Barx",
       "breed": "Bichon Frise",
-      "customerId": 1,
-      "locationId": 2
+      "locationId": 3,
+      "customerId": 1
     },
     {
-      "id": 1,
+      "id": 9,
       "name": "Luna",
       "breed": "Corgo",
       "customerId": 1,
@@ -30,7 +30,7 @@
     },
     {
       "id": 3,
-      "name": "Cheddar",
+      "name": "Cheddar Two",
       "breed": "Stumper",
       "locationId": 1,
       "customerId": 2
