@@ -29,10 +29,11 @@
       "locationId": 2
     },
     {
+      "id": 3,
       "name": "Cheddar",
+      "breed": "Stumper",
       "locationId": 1,
-      "customerId": 2,
-      "id": 3
+      "customerId": 2
     },
     {
       "name": "Cheddar",
@@ -47,6 +48,20 @@
       "locationId": 3,
       "customerId": 3,
       "id": 5
+    },
+    {
+      "name": "Hitchcock",
+      "breed": "English Bulldog",
+      "locationId": 3,
+      "customerId": 3,
+      "id": 6
+    },
+    {
+      "id": 7,
+      "name": "Buddy",
+      "breed": "Lab",
+      "locationId": 3,
+      "customerId": 2
     }
   ],
   "customers": [

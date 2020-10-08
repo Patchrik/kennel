@@ -50,6 +50,16 @@ export const ApplicationViews = (props) => {
 				</Route>
 			</AnimalProvider>
 
+			<AnimalProvider>
+				<CustomerProvider>
+					<LocationProvider>
+						<Route path="/animals/edit/:animalId(\d+)">
+							<AnimalForm />
+						</Route>
+					</LocationProvider>
+				</CustomerProvider>
+			</AnimalProvider>
+
 			<EmployeeProvider>
 				<Route exact path="/employees">
 					<EmployeeList />

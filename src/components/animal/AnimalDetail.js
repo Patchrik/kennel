@@ -24,10 +24,25 @@ export const AnimalDetail = () => {
 
 	return (
 		<section className="animal">
-			<h3 className="animal__name">{animal.name}</h3>
-			<div className="animal__breed">{animal.breed}</div>
-			<div className="animal__location">Location: {location.name}</div>
-			<div className="animal__owner">Customer: {customer.name}</div>
+			<h3 className="animal__name">Hi! My Name is {animal.name}</h3>
+			<div className="animal__breed">
+				<b>Breed: </b>
+				{animal.breed}
+			</div>
+			<div className="animal__location">
+				<b>Location: </b> {location.name}
+			</div>
+			<div className="animal__owner">
+				<b>Customer: </b> {customer.name}
+			</div>
+
+			<button
+				onClick={() => {
+					history.push(`/animals/edit/${animal.id}`);
+				}}
+			>
+				Edit
+			</button>
 		</section>
 	);
 };
