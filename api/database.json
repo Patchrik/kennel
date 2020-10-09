@@ -1,20 +1,6 @@
 {
   "animals": [
     {
-      "id": 1,
-      "name": "Doodles",
-      "breed": "Poodle",
-      "customerId": 1,
-      "locationId": 2
-    },
-    {
-      "id": 2,
-      "name": "Puddles",
-      "breed": "Doodle",
-      "customerId": 1,
-      "locationId": 2
-    },
-    {
       "id": 8,
       "name": "Karl Barx",
       "breed": "Bichon Frise",
@@ -55,13 +41,6 @@
       "locationId": 3,
       "customerId": 3,
       "id": 6
-    },
-    {
-      "id": 7,
-      "name": "Buddy",
-      "breed": "Lab",
-      "locationId": 3,
-      "customerId": 2
     }
   ],
   "customers": [

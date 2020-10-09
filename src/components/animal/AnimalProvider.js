@@ -30,6 +30,12 @@ export const AnimalProvider = (props) => {
 		}).then(getAnimals);
 	};
 
+	const releaseAnimal = (animalId) => {
+		return fetch(`http://localhost:8088/animals/${animalId}`, {
+			method: "DELETE",
+		}).then(getAnimals);
+	};
+
 	const updateAnimal = (animal) => {
 		return fetch(`http://localhost:8088/animals/${animal.id}`, {
 			method: "PUT",
@@ -60,6 +66,7 @@ export const AnimalProvider = (props) => {
 				addAnimal,
 				getAnimalById,
 				updateAnimal,
+				releaseAnimal,
 				searchTerms,
 				setSearchTerms,
 			}}

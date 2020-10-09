@@ -43,6 +43,16 @@ export const AnimalDetail = () => {
 			>
 				Edit
 			</button>
+
+			<button
+				onClick={() => {
+					releaseAnimal(animal.id).then(() => {
+						history.push("/animals");
+					});
+				}}
+			>
+				Release Animal
+			</button>
 		</section>
 	);
 };
